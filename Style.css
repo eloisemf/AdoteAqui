@@ -1,0 +1,64 @@
+body{
+    background-color:#fcc802; 
+}
+
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    background-color: #ffffff;
+    font-size: 30px;
+   
+   
+   
+}
+
+ul li{
+    display: inline;
+    padding: 10px;  /*muda o tamanho da separação*/ 
+}
+ul li :first-child{
+    justify-content: flex-start;
+}
+
+ul li a{
+    color: black;
+    padding: 10px;    /*muda o tamanho do quadradinh*/
+    text-decoration: blue;
+   
+    display: inline-flex;
+    justify-content: flex-end;
+    
+}
+
+ul li a:hover{
+    background-color: beige;
+}
+.topo{
+    background-color:#ffffff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+}

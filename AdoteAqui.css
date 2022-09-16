@@ -1,0 +1,191 @@
+body {
+    background-color: #fcc802;
+}
+
+/*pra pagina toda*/
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.barra {
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 15px;
+    margin-left: 10px;
+    font-family: fantasy;
+    
+}
+
+nav {
+    font-family: fantasy;
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    /*sombra na beira*/
+
+}
+
+ul {
+    list-style-type: none;
+    /*tira as bolinhas*/
+    font-size: 30px;
+    margin-right: 10px;
+    
+
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: black;
+    padding: 15px;
+    /*muda o tamanho pra dentro da caixa*/
+    text-decoration: none;
+    /*tira o sublinhado do link*/
+    display: inline-block;
+}
+
+ul li a:hover {
+    background-color: #fcc802;
+}
+
+.topo {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#texto1 {
+    padding: 100px 150px;
+    font-size: 30px;
+    text-align: justify;
+    background-color: #f8f6ec5b;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#texto2 {
+font-size: 30px;
+    display: flex;
+    width: 0px auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.card1 {
+    width: 300px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    /*arredondar bordinha*/
+    border: solid #2b211c 2px;
+
+}
+
+.card1 img {
+    width: 200px;
+
+    margin-top: 50px;
+}
+
+.card2 {
+    width: 300px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    border: solid #2b211c 2px ;
+}
+
+.card2 img {
+    margin-top: 50px;
+    width: 200px;
+
+
+}
+
+.card3 {
+    width: 300px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    border: solid #2b211c 2px;
+
+}
+
+.card3 img {
+    width: 200px;
+    margin-top: 50px;
+}
+
+
+input {
+    margin: 40px;
+    box-shadow: 0px 0px 6px 0px #937363;
+    background-color:#937363; 
+    border-radius: 28px;
+    border: 1px solid ;
+    display: inline-block;
+    cursor: pointer; /*aparece a lun=vinha*/
+    color: #000000;
+    font-size: 17px;
+    padding: 16px 31px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input:hover {
+    background-color:#2b211c;
+}
+
+#texto3{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+
+}
+
+#texto3 ul{
+    display: flex;
+    padding: 50px;
+
+}
+
+    
+    
+
+
+#texto3 img{
+    width: 50px;
+
+
+
+}
+
+
+
+
+
+footer {
+
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
